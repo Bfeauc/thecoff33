@@ -1,27 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="OrderStyle.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="order">
-        <div class="text">
-          <h2>The Coff33 App</h2>
-          <h3>Download Now</h3>
-            <p>Get the best of The Coff33 Rewards right at your fingertips.
-                Download the Coff33 application now and enjoy the interesting features offered. 
-                The Coff33 app is available for Android and iOS devices. Click the button below to
-                 download The Coffe app from the appropriate app store for your device.
-                </p>
-          </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../src/css/style01.css">
+        <title>App</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+
+            }
+
+            .wrapper {
+                height: 100vh;
+                background-color: #F5DEB3;
+            }
+
+            .order {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                float: left;
+                padding: 30px;
+            }
+            .text {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 10px;
+                color: black;
+                padding: 30px;
+            }
+
+            .text h2 {
+                color: rgb(135, 128, 83);
+                font-size: 30px;
+                border-radius: 5px;
+                background-color: beige;
+                padding: 25px;
+                align-items: center;
+            }
+
+            .content{
+              width: 1250px;
+            }
+
+            .content p {
+                font-size: 20px;
+                padding: 10px;
+                align-items: center;
+            }
+
+            .container {
+                display: flex;
+                box-sizing: border-box;
+                justify-content: center;
+                text-align: center;
+
+            }
+
+            .image {
+                /* float: right; */
+                padding: 20px;
+            }
+
+            .image img {
+                /* width: 100%; */
+                height: 350px;
+                border-radius: 10px;
+            }
+
+            .wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .appstore a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+
+            .appstore .btn {
+                transition: all 0.4s ease-in;
+                transform: translate(0px);
+                display: inline-block;
+                text-shadow: 1px 1px 8px rgba(0,0,0,0);
+            }
+
+            .appstore .btn:hover {
+                transform: translateY(-5px);
+                text-shadow: 1px 1px 8px rgba(0,0,0,1);
+            }
+
+            .playstore a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+
+            .playstore .btn {
+                transition: all 0.4s ease-in-out;
+                transform: translate(0px);
+                display: inline-block;
+                text-shadow: 1px 1px 8px rgba(0,0,0,0);
+            }
+
+            .playstore .btn:hover {
+                transform: translateY(-5px);
+                text-shadow: 1px 1px 8px rgba(0,0,0,1);
+            }
+        </style>
+    </head>
+    <body>
+        <section class="wrapper">
+            <div class="order">
+                <div class="text">
+                    <h2>The Coff33 App</h2>
+                </div>
+                <div class="content">
+                    <p>Get the best of The Coff33 Rewards right at your fingertips. Download the
+                        Coff33 application now and enjoy the interesting features offered. The Coff33
+                        app is available for Android and iOS devices. Click the button below to download
+                        The Coffe app from the appropriate app store for your device.
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="appstore">
+                    <div class="image">
+                        <img id="pict" src="../src/img/1.png">
+                    </div>
+                    <div class="btn">
+                        <a href="">Download on the App Store</a>
+                    </div>
+                </div>
+                <div class="playstore">
+                    <div class="image">
+                        <img id="pict" src="../src/img/2.png">
+                    </div>
+                    <div class="btn">
+                        <a href="">Download on the Play Store</a>
+                    </div>
+                </div>
+            </div>
         </div>
-     <div class="Image">
-      <img src="./">
-      <p><a href="./" class="tbl-brown">Download at the App Store</a></p><br>
-      <p><a href="./" class="tbl-brown">Download at the App Store</a></p>
-     </div>
+    </section>
+    <footer>
+      <section class="footer">
+          <ol>
+              <li class="logo-delivery">
+                  <img src="../src/img/logo.png" alt="logo">
+                  <h2>®</h2>
+                  <h1>
+                      <b>DELIVERY</b>
+                  </h1>
+              </li>
+          </ol>
+          <ol class="contact-person">
+              <li class="email">
+                  <a href="#">
+                      <i class="fa-solid fa-phone" style="color: white;"></i>
+                      (123) 4567</a>
+              </li>
+              <li class="email">
+                  <a href="#">
+                      <i class="fa-solid fa-envelope" style="color: white;"></i>
+                      services@thecoff33.com</a>
+              </li>
+              <li class="email">
+                  <a href="#">
+                      ©️ 2023 THE COFF33, All Right Reserved</a>
+              </li>
+          </ol>
+      </section>
+  </footer>
 </body>
 </html>
