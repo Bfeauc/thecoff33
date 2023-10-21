@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../src/css/style01.css">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                scroll-behavior: smooth;
+            }
+
+            .img img {
+                height: 100vh;
+            }
+
+            /* .logo {
+                display: flex;
+                justify-content: right;
+                margin: -225px 50px 0 0;
+            } */
+
+            .logo img {
+                width: 500px;
+            }
+
+            main {
+                background-color: black;
+            }
+            main .title {
+                text-align: center;
+                color: white;
+            }
+
+            main h2 {
+                font-size: 40px;
+            }
+
+            .menu-box-wrapper {
+                display: flex;
+                list-style: none;
+            }
+            .menu-box {
+                margin: 40px;
+                border: 1px solid white;
+                width: 300px;
+                border-radius: 30px;
+                padding: 30px;
+                background-color: white;
+            }
+
+            .menu-box img {
+                width: 300px;
+                border-radius: 20px;
+            }
+
+            .menu-box h3,
+            h4 {
+                color: black;
+            }
+
+            .menu-box button {
+                border: 1px;
+                width: 100px;
+                height: 50px;
+                border-radius: 30px;
+                padding: 5px 10px;
+                font-size: 17px;
+                margin-left: 200px;
+            }
+
+            .menu-box button:hover {
+                background-color: rgba(99, 80, 69, 0.993);
+                color: white;
+                cursor: pointer;
+            }
+
+            footer {
+                display: flex;
+                background-color: rgb(110, 110, 110);
+                height: 35vh;
+            }
+
+            footer li{
+                color: white;
+            }
+
+
+            .logo-delivery {
+                display: flex;
+            }
+
+            .logo-delivery img {
+                width: 200px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .logo-delivery h2 {
+                margin-top: 60px;
+                margin-bottom: 50px;
+            }
+
+            .logo-delivery h1 {
+                margin: 85px 0 50px 20px;
+            }
+
+            .contact-person {
+                list-style: none;
+            }
+
+            .contact-person i {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+            .contact-person a {
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+
+            .contact-person a:hover {
+                color: rgb(212, 199, 199);
+                text-decoration: underline;
+            }
+
+            .header {
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("./src/img/coffee-concept-with-differents-types-coffee-coffee-beans-milk-cinnamon-sticks-grey-background-flat-lay.jpg");
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: hsla(240, 1%, 21%, 0.6);
+            }
+
+            .logo-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+            }
+
+            .bestseller {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .menu-box-wrapper {
+                padding-inline-start: 0;
+            }
+
+            .explore-btn > a {
+                text-decoration: none;
+                color: white;
+                background-color: transparent;
+                padding: 10px;
+                border: 3px solid #EAC696;
+                position: relative;
+                top: 30px;
+            }
+
+            .explore-btn a:hover {
+                background-color: #EAC696;
+            }
+
+            .main{
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <section class="header">
+                <div class="overlay">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <img src="./src/img/logo.png" alt="" draggable="false">
+                        </div>
+                        <div class="explore-btn">
+                            <a href="#best-selling">EXPLORE.</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="main" id="best-selling">
+                <div class="title">
+                    <h2>
+                        Our Best Sellers
+                    </h2>
+                </div>
+                <div class="bestseller">
+                    <ol class="menu-box-wrapper">
+                        <li class="menu-box">
+                            <img src="./src/img/affogato.jpg" alt="affogato">
+                            <h3>
+                                <b>
+                                    AFFOGATO
+                                </b>
+                            </h3>
+                            <h4>Rp 60.000,00</h4>
+                            <button type="button">Order</button>
+                        </li>
+                        <li class="menu-box">
+                            <img src="../src/img/matchalatte.jpg" alt="matcha latte">
+                            <h3>
+                                <b>
+                                    MATCHA LATTE
+                                </b>
+                            </h3>
+                            <h4>Rp 52.000,00</h4>
+                            <button type="button">Order</button>
+                        </li>
+                        <li class="menu-box">
+                            <img src="../src/img/strawberrypancake.jpg" alt="strawberry pancake">
+                            <h3>
+                                <b>
+                                    STRAWBERRY PANCAKE
+                                </b>
+                            </h3>
+                            <h4>Rp 40.000,00</h4>
+                            <button type="button">Order</button>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ol class="footer">
+                <li class="logo-delivery">
+                    <img src="./src/img/logo.png" alt="logo">
+                    <h2>®</h2>
+                    <h1>
+                        <b>DELIVERY</b>
+                    </h1>
+                </li>
+            </or>
+            <or class="contact-person">
+                <li class="phone">
+                    <i class='bx bxs-phone'></i>
+                    <a href="#">(123) 4567</a>
+                </li>
+                <li class="email">
+                    <i class='bx bxs-envelope'></i>
+                    <a href="#">services@thecoff33.com</a>
+                </li>
+            </or>
+        </footer>
+    </body>
+</html>

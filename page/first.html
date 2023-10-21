@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        table, tr {
+            border: 1px solid white;
+            margin-left: 150px;
+            margin-right: 150px;
+            box-shadow: inset 4px 4px 50px rgb(167, 13, 77);
+        }
+
+        .gridone {
+            text-align: center;
+            grid-template-columns: auto;
+            background-color: rgba(228, 128, 14, 0.623);
+            padding: 10px;
+        }
+
+        .imgone {
+            display: block; 
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .imglogo {
+            margin-left: 20px;
+            width: 20%;
+        }
+
+        .hone {
+            color: whitesmoke;
+            text-align: center;
+            font-family: verdana;
+        }
+
+        .htwo {
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .ptwo {
+            color: whitesmoke;
+            font-family: arial;
+            font-weight: bold;
+            margin-left: 20px;
+            
+        }
+
+        .pthree {
+            color: whitesmoke;
+            margin-left: 20px;
+        }
+
+        .pfour {
+            color: whitesmoke;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .pfive {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            padding: 100px;
+            font-family: verdana;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="hone">MENU</h1>
+    <div class="gridone">
+        <a href="first.html" class="pfive">Drinks</a>
+        <a href="five.html" class="pfive">Foods</a>
+    </div>
+    <hr/>
+    <h1 class="htwo">DRINKS</h1>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td> <img src="affogato.jpg" alt="Affogato" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">AFFOGATO<br><br>
+                        <em>Rp60.000,00</em>
+                    </p>
+                    <button onclick="document.location='affogato.html'">Detail</button>
+                    <button onclick="document.location='second.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td> <img src="americano.jpg" alt="Americano" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">AMERICANO<br><br>
+                        <em>Rp41.000,00</em>
+                    </p>
+                    <button onclick="document.location='americano.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="cappucino.jpg" alt="Cappucino" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">CAPPUCINO<br><br>
+                        <em>Rp59.000,00</em>
+                    </p>
+                    <button onclick="document.location='cappucino.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="coffee latte.jpg" alt="Latte" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">LATTE<br><br>
+                        <em>Rp50.000,00</em>
+                    </p>
+                    <button onclick="document.location='latte.html'">Detail</button>
+                    <button onclick="document.location='second.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="earl grey tea.jpg" alt="Earl Grey Tea" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">EARL GREY TEA<br><br>
+                        <em>Rp66.000,00</em>
+                    </p>
+                    <button onclick="document.location='earlgrey.html'">Detail</button>
+                    <button onclick="document.location='four.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="espresso.jpg" alt="Espresso" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">ESPRESSO<br><br>
+                        <em>Rp62.000,00</em>
+                    </p>
+                    <button onclick="document.location='espresso.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="flat white.jpg" alt="Flat White" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">FLAT WHITE<br><br>
+                        <em>Rp49.000,00</em>
+                    </p>
+                    <button onclick="document.location='flatwhite.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="jasmine tea.jpg" alt="Jasmine Tea" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">Jasmine Tea<br><br>
+                        <em>Rp74.000,00</em>
+                    </p>
+                    <button onclick="document.location='jasmine.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="matcha latte.jpg" alt="Matcha Latte" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">Matcha Latte<br><br>
+                        <em>Rp52.000,00</em>
+                    </p>
+                    <button onclick="document.location='matcha.html'">Detail</button>
+                    <button onclick="document.location='six.html'">Order Now</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

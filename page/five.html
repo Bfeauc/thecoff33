@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        table, tr {
+            border: 1px solid white;
+            margin-left: 150px;
+            margin-right: 150px;
+            /* memberi warna dan bayangan garis tabel */
+            box-shadow: inset 4px 4px 50px rgb(167, 13, 77);
+        }
+
+        .gridone {
+            text-align: center;
+            grid-template-columns: auto;
+            background-color: rgba(228, 128, 14, 0.623);
+            padding: 10px;
+        }
+
+        .imgone {
+            display: block; 
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .imglogo {
+            margin-left: 20px;
+            width: 20%;
+        }
+
+        .hone {
+            color: whitesmoke;
+            text-align: center;
+            font-family: verdana;
+        }
+
+        .htwo {
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .ptwo {
+            color: whitesmoke;
+            font-family: arial;
+            font-weight: bold;
+            margin-left: 20px;
+            
+        }
+
+        .pthree {
+            color: whitesmoke;
+            margin-left: 20px;
+        }
+
+        .pfour {
+            color: whitesmoke;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .pfive {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            padding: 100px;
+            font-family: verdana;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="hone">MENU</h1>
+    <div class="gridone">
+        <a href="first.html" class="pfive">Drinks</a>
+        <a href="five.html" class="pfive">Foods</a>
+    </div>
+    <hr/>
+    <h1 class="htwo">FOODS</h1>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td> <img src="beef sandwicch.jpg" alt="Beef Sandwich" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">BEEF SANDWICH<br><br>
+                        <em>Rp72.000,00</em>
+                    </p>
+                    <button onclick="document.location='beef.html'">Detail</button>
+                    <button onclick="document.location='three.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td> <img src="Chocolate Waffles.jpeg" alt="Chocolate Waffles" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">CHOCOLATE WAFFLES<br><br>
+                        <em>Rp41.000,00</em>
+                    </p>
+                    <button onclick="document.location='waffles.html'">Detail</button>
+                    <button onclick="document.location='eight.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="nutella crepe.jpg" alt="Nutella Crepe" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">NUTELLA CREPE<br><br>
+                        <em>Rp59.000,00</em>
+                    </p>
+                    <button onclick="document.location='nutella.html'">Detail</button>
+                    <button onclick="document.location='eight.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="strawberry pancake.jpg" alt="Strawberry Pancake" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">STRAWBERRY PANCAKE<br><br>
+                        <em>Rp40.000,00</em>
+                    </p>
+                    <button onclick="document.location='pancake.html'">Detail</button>
+                    <button onclick="document.location='eight.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="strawberry panna cota.jpg" alt="Strawberry Panna Cotta" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">Strawberry Panna Cotta<br><br>
+                        <em>Rp66.000,00</em>
+                    </p>
+                    <button onclick="document.location='pannacota.html'">Detail</button>
+                    <button onclick="document.location='eight.html'">Order Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="tiramisu cake.jpg" alt="Tiramisu Cake" class="imgone">
+                </td>
+                <td>
+                    <p class="ptwo">TIRAMISU CAKE<br><br>
+                        <em>Rp62.000,00</em>
+                    </p>
+                    <button onclick="document.location='tiramisu.html'">Detail</button>
+                    <button onclick="document.location='eight.html'">Order Now</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
