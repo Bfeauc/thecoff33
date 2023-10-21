@@ -243,3 +243,65 @@ ul{
     transform: scale(1.4);
 }
 
+footer {
+    display: flex;
+    background-color: rgb(110, 110, 110);
+    height: 45vh;
+}
+
+footer li {
+    color: white;
+}
+
+.logo-delivery {
+    display: flex;
+}
+
+.logo-delivery img{
+    height: 85px;
+    margin-top: 50px;
+}
+
+.logo-delivery h2 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.logo-delivery h1 {
+    margin: 85px 0 50px 20px;
+}
+
+.contact-person {
+    list-style: none;
+}
+
+.contact-person i {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.email a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;              
+}
+
+.email {
+    padding: 10px;
+}
+
+.email a:hover{
+    color: #D1923D;
+    text-decoration: none;
+}
+
+.footer ol{
+    padding-inline-start: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #D1923D;
+    ;
+}

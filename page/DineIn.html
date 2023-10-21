@@ -4,12 +4,102 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="../src/css/dinein.css">
+        <link rel="stylesheet" href="../src/css/style01.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200&display=swap');
+
+            * {
+                font-family: 'Poppins', sans-serif;
+                /* background-color: rgb(105, 90, 84); */
+                color: white;
+            }
+
+            body {
+                background-color: rgb(105, 90, 84);
+                background-image: url("../src/img/bg.jpeg");
+                background-size: 100%;
+                background-blend-mode: darken;
+            }
+
+            .header {
+                text-align: center;
+            }
+
+            .header img {
+                width: 500px;
+            }
+
+            .title h1 {
+                font-family: 'Anton', sans-serif;
+                font-size: 100px;
+                text-align: center;
+            }
+
+            .main {
+                margin: 100px;
+                margin-top: 25px;
+
+            }
+
+            .area {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid rgb(62, 57, 55);
+                border-radius: 30px;
+                padding: 30px;
+                background-color: rgb(77, 69, 65);
+                margin-bottom: 50px;
+            }
+
+            .area .indoor-img img {
+                width: 500px;
+                height: auto;
+                border-radius: 30px;
+                margin-right: 50px;
+            }
+
+            .area .outdoor-img img {
+                width: 500px;
+                height: auto;
+                border-radius: 30px;
+                margin-left: 50px;
+            }
+
+            .area .text h1 {
+                text-decoration: underline;
+                font-size: 35px;
+            }
+
+            .area .text p {
+                text-align: justify;
+            }
+
+            .area .btn {
+                width: 200px;
+                height: 60px;
+                border: 0;
+                border-radius: 70px;
+                color: white;
+                font-weight: bold;
+                background-color: rgb(153, 143, 139);
+                margin: 50px 0 0 375px;
+                font-size: 15px;
+                font-weight: 1000;
+            }
+
+            .area .btn:hover {
+                background-color: rgb(179, 167, 162);
+                color: white;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <section class="diningtron">
             <div class="header">
-                <img src="./src/img/logo.png">
+                <img src="../src/img/logo.png">
             </div>
             <div class="main">
                 <div class="title">
@@ -17,7 +107,7 @@
                 </div>
                 <div class="area">
                     <div class="indoor-img">
-                        <img src="./src/img/indoor.jpeg.jpg">
+                        <img src="../src/img/indoor.jpeg.jpg">
                     </div>
                     <div class="text">
                         <h1>INDOOR AREA</h1>
@@ -44,10 +134,39 @@
                         <button class="btn">RESERVATION</button>
                     </div>
                     <div class="outdoor-img">
-                        <img src="./src/img/outdoor.jpeg.jpg">
+                        <img src="../src/img/outdoor.jpeg.jpg">
                     </div>
                 </div>
             </div>
         </section>
+        <footer>
+            <section class="footer">
+                <ol>
+                    <li class="logo-delivery">
+                        <img src="../src/img/logo.png" alt="logo">
+                        <h2>®</h2>
+                        <h1>
+                            <b>DELIVERY</b>
+                        </h1>
+                    </li>
+                </ol>
+                <ol class="contact-person">
+                    <li class="email">
+                        <a href="#">
+                            <i class="fa-solid fa-phone" style="color: white;"></i>
+                            (123) 4567</a>
+                    </li>
+                    <li class="email">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope" style="color: white;"></i>
+                            services@thecoff33.com</a>
+                    </li>
+                    <li class="email">
+                        <a href="#">
+                            ©️ 2023 THE COFF33, All Right Reserved</a>
+                    </li>
+                </ol>
+            </section>
+        </footer>
     </body>
 </html>
