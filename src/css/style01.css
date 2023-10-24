@@ -80,7 +80,7 @@ ul{
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-    padding-inline-start: 35px;
+    padding-inline-start: 65px;
     font-size: 20px;
 }
 
@@ -460,6 +460,7 @@ footer li {
 
 .food-img img{
     height: 100vh;
+    width: 831px;
 }
 
 .right-col{
@@ -558,6 +559,27 @@ textarea{
 .review-btn:hover{
     background: #65451F;
     cursor: pointer;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease;
     border: 2px solid #65451F;
+}
+
+.back-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 15px;
+}
+
+.back-btn{
+    text-transform: uppercase;
+    padding: 8px 16px 8px 16px;
+    border-radius: 1rem;
+    background: white;
+    color: black;
+}
+
+.back-btn:hover{
+    cursor: pointer;
+    background: #eeeeee;
+    color: black;
 }

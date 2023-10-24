@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(159, 121, 96);
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #cab08a;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .Name {
+  width: 100%;
+  margin-top: 20px;
+}
+.Name label {
+  color: #333;
+}
+
+.form :where(.Name input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.Name input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+  display: flex;
+  column-gap: 5px;
+}
+
+.Question {
+    position: absolute;
+    top: 90%;
+    left: 22%;
+    max-width: 700px;
+    width: 100%;
+    background: #cab08a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(234, 236, 228, 0.258);   
+}
+
+.Question header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+.Question.box {
+    margin-top: 30px;
+  }
+.box .Choose {
+    width: 100%;
+    margin-top: 20px;
+  }
+.Choose label {
+    color: #333;
+  }
+.Question.box :where(.Choose input, .select-box) {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+.Choose input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+.Choose select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+    border-radius: 20px;
+  }
+.Choose button {
+    height: 55px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border-radius:  20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(177, 136, 80);
+    
+  }
+.Choose button:hover {
+    background: rgb(115, 67, 5);
+  }
+
+
