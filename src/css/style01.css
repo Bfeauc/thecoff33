@@ -137,7 +137,7 @@ ul{
     left: 0;
     width: 100%;
     height: 100%;
-    background: hsla(240, 1%, 21%, 0.6);
+    background: hsla(0, 1%, 33%, 0.6);
 }
 
 .dropdown{
@@ -313,6 +313,41 @@ footer li {
     flex-direction: row;
 } */
 
+/* .desc-container{
+    width: 50vw;
+}
+
+
+.food-bg {
+    overflow-x: hi;
+}
+
+.food-bg img {
+    height: 100vh;
+}
+
+.overlay-food{
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(0,0,0,1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 840px;
+    height: 100vh;
+}
+
+.food-container{
+    backdrop-filter: blur(12px) contrast(80%);
+} */
+
+.description {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 45vw;
+    padding: 30px;
+    z-index: 2;
+}
+
 .name-price-tag {
     display:flex;
     flex-direction: row;
@@ -342,6 +377,7 @@ footer li {
 .description > p {
     color: white;
     padding: 10px;
+    text-align: justify;
 }
 
 .menu{
@@ -384,9 +420,7 @@ footer li {
     background-color: #b39672;
 }
 
-.details-sub{
-    /* padding: 10px; */
-}
+
 
 .details-sub h5{
     margin: 10px;
@@ -398,20 +432,134 @@ footer li {
     margin-top: 40px;
 }
 
-.food-desc {
+.food-container{
+    backdrop-filter: blur(12px) contrast(80%);
+    
+}
+
+.food-desc{
     height: 100vh;
-    background-image: url(../img/affogato.jpg);
+    /* background-image: url(../img/affogato3.png); */
+    background: black;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    
 }
 
-.food-desc img{
+/* .food-view{
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(0,0,0,1));
     position: absolute;
     top: 0;
+    left: 0;
+    width: 840px;
+    height: 100vh;
+} */
+
+
+.food-img{
+}
+
+.food-img img{
     height: 100vh;
 }
 
-.food-overlay {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+.right-col{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* .right-col div{
+} */
+
+/* .right-col p{
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
+    margin: 20px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: justify;
+} */
+
+.experience{
+    margin: 10px 5px 5px 10px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.reviews-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-btn{
+    margin-top: 15px;
+    padding: 8px 16px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.like-btn:hover{
+    background: #eeeeee;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.like-btn:nth-last-child(1):focus{
+    background: #2B92B9;
+    color: white;
+    border: 2px solid #2B92B9;
+}
+
+.like-btn:nth-last-child(2):focus{
+    background: #FEA623;
+    color: white;
+    border: 2px solid #FEA623;
+}
+
+.like-btn:nth-last-child(3):focus{
+    background: #E03D43;
+    color: white;
+    border: 2px solid #E03D43;
+}
+
+textarea{
+    resize: none;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.review-btn{
+    margin-top: 15px;
+    padding: 8px 16px;
+    border-radius: 1rem;
+    text-align: center;
+    background: #855b29;
+    color: white;
+    border: 2px solid #855b29;
+    text-transform: uppercase;
+}
+
+.review-btn:hover{
+    background: #65451F;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border: 2px solid #65451F;
 }
