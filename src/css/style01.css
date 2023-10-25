@@ -583,3 +583,19 @@ textarea{
     background: #eeeeee;
     color: black;
 }
+
+.down-btn a{
+    color: white;
+    font-size: 30px;
+}
+
+
+.down-btn i{
+    transition: all 0.4s ease;
+}
+
+.down-btn a:hover > i{
+    color: white;
+    font-size: 30px;
+    transform: translateY(15px);
+}
