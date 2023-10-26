@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(232, 215, 194);
+}
+
+.step-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.step-section a, label{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.step{
+    display: flex;
+}
+
+.step1{
+    display: flex;
+    padding: 20px 125px;
+    border-radius: 20px 0px 0px 20px;
+    margin: none;
+    background-color: rgb(110, 106, 102);
+}
+
+.step1::before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 43px;
+    height: 43px;
+    background-color: rgb(110, 106, 102);
+    transform: rotate(45deg);
+    top: 110px;
+    left: 471px;
+}
+
+.step2{
+    padding: 20px 125px;
+    margin: none;
+    background-color: rgb(147, 143, 139); 
+}
+
+.step3{
+    padding: 20px 125px;
+    border-radius: 0px 20px 20px 0px;
+    margin: none;
+    background-color: rgb(147, 143, 139);
+}
+
+.head{
+    background-color: rgb(150, 138, 123);
+}
+
+.order{
+    justify-content: center;
+    margin: 50px 190px;
+    border: 1px solid white;
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td, tr{
+    padding: 30px 150px;
+}
+
+th{
+    color: white;
+    padding: 10px 100px;
+}
+
+td{
+    text-align: center;
+}
+
+.menu{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.next-step{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.next-step a{
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.next-step a:hover{
+    background-color: rgb(150, 138, 123);
+    color: white;
+}

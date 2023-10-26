@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/css/deliveryinfo.css">
+</head>
+<body>
+    <div class="content">
+        <div class="step-section">
+            <div class="step">
+                <div class="step1"><a href="../page/cart.html">CART</a></div>
+                <div class="step2"><label href="../page/deliveryinfo.html">DELIVERY INFO</label></div>
+                <div class="step3"><label>PAYMENT</label></div>
+            </div>
+        </div>
+        <form class="detail" action="../page/payment.html">
+            <div class="bio" >
+                <h2>GUEST DETAIL</h2>
+                <div class="name">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="number">
+                    <span class="code">+62</span>
+                    <input type="number" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d253867.83160243402!2d106.876647!3d-6.17293!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1698032185118!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="detail-address">
+                    <h3>Give your detail address</h3>
+                    <TEXTAREA rows="6" cols="50" placeholder="Your Detail Address"></TEXTAREA>
+                </div>
+                <div class="next-step">
+                    <button type="submit" onclick="">CONTINUE <a href="../page/payment.html"></a></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

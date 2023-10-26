@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(232, 215, 194);
+}
+
+.step-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.step-section a, label{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 0px 100px; */
+    color: white;
+}
+
+.step{
+    display: flex;
+}
+
+.step1{
+    display: flex;
+    padding: 20px 125px;
+    border-radius: 20px 0px 0px 20px;
+    margin: none;
+    background-color: rgb(110, 106, 102);
+}
+
+.step2{
+    padding: 20px 125px;
+    margin: none;
+    background-color: rgb(110, 106, 102); 
+}
+
+.step2::before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 43px;
+    height: 43px;
+    background-color: rgb(110, 106, 102);
+    transform: rotate(45deg);
+    top: 110px;
+    left: 873px;
+}
+
+.step3{
+    padding: 20px 125px;
+    border-radius: 0px 20px 20px 0px;
+    margin: none;
+    background-color: rgb(147, 143, 139);
+}
+
+.detail{
+    display: flex;
+    margin: 50px 190px;
+    border: 1px solid white;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.bio{
+    padding-bottom: 20px;
+}
+.bio h2{
+    text-align: left;
+}
+
+.name input{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.number{
+    margin-top: 20px;
+}
+
+.number input{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 270px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.detail-address{
+    margin: 25px 0px;
+}
+
+.detail-address textarea{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: auto;
+}
+
+.next-step{
+    text-align: center;
+    margin: 20px;
+}
+
+.next-step button{
+    border: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.next-step button a{
+    color: black;
+    text-decoration: none;
+}
+
+.next-step button:hover{
+    background-color: rgb(150, 138, 123);
+    color: white;
+}
+

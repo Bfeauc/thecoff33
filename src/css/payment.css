@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(232, 215, 194);
+}
+
+.step-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.step-section a, label{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 0px 100px; */
+    color: white;
+}
+
+.step{
+    display: flex;
+}
+
+.step1{
+    display: flex;
+    padding: 20px 125px;
+    border-radius: 20px 0px 0px 20px;
+    margin: none;
+    background-color: rgb(110, 106, 102);
+}
+
+.step2{
+    padding: 20px 125px;
+    margin: none;
+    background-color: rgb(110, 106, 102); 
+}
+
+.step3{
+    padding: 20px 125px;
+    border-radius: 0px 20px 20px 0px;
+    margin: none;
+    background-color: rgb(110, 106, 102);
+}
+
+.content{
+    display: flex;
+    border: 1px solid white;
+    margin: 50px 190px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.order-summary{
+    justify-content: left;
+}
+
+td{
+    padding: 20px 30px;
+    text-align: center;
+    /* border: 1px solid rgb(150, 138, 123); */
+    background-color: white;
+}
+
+.menu{
+    text-align: left
+}
+
+th{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.payment{
+    margin: 0px 20px;
+}
+
+.method1{
+    display: flex;
+}
+
+.method2{
+    display: flex;
+}
+
+img{
+    width: 150px;
+    padding: 15px;
+    margin: 0px 20px;
+}
+
+.place-order{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.place-order a{
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 220px;
+    background-color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.place-order a:hover{
+    background-color: rgb(150, 138, 123);
+    color: white;
+}

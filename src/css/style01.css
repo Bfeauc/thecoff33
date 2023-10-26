@@ -132,7 +132,14 @@ ul{
 }
 
 .beverage-home{
-    background-image: url(../img/beverage.jpeg.jpg);
+    background-image: url(../img/beveragebg.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.snack-home{
+    background-image: url(../img/snackbg.jpeg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
