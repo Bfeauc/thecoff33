@@ -678,6 +678,7 @@ footer li {
     background: #eeeeee;
     outline: none;
     border: none;
+    margin-bottom: 50px;
 }
 
 .txtarea-msg label{
@@ -751,3 +752,7 @@ footer li {
     color: #855b29;
     font-size: 20px;
 }
+
+.label{
+}
+
