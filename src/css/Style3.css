@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #312f2f;
+    background-size: cover;
+    color: white;
+}
+
+body{
+    display: flex;
+    font-family:"Lemon-Regular";
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.about{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-content{
+    font-family: "OpenSans-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    padding: 50px; 
+}
+.people{
+    display: flex;
+    padding: 30px ;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.pfp{
+    margin: 20px;
+}
+
+

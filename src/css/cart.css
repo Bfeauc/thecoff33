@@ -42,7 +42,7 @@ body{
     background-color: rgb(110, 106, 102);
     transform: rotate(45deg);
     top: 110px;
-    left: 471px;
+    left: 622px;
 }
 
 .step2{
@@ -57,6 +57,7 @@ body{
     margin: none;
     background-color: rgb(147, 143, 139);
 }
+
 
 .head{
     background-color: rgb(150, 138, 123);
@@ -73,6 +74,7 @@ body{
 
 table{
     border-collapse: collapse;
+    width: 100%;
 }
 
 th, td, tr{
